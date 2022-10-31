@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+      <variable
+          name="vm"
+          type="com.example.retrofitapp.MainViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+        <TextView
+            android:id="@+id/tv_getgson"
+            android:text="点击获取请求数据"
+            android:gravity="center"
+            android:onClick="@{()-> vm.getGson()}"
+            android:background="@android:color/holo_blue_bright"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></TextView>
+
+        <TextView
+            android:onClick="@{()->vm.startMyretrofitAc()}"
+            android:layout_marginTop="10dp"
+            android:text="跳转到自定义retrofit"
+            android:layout_width="match_parent"
+            android:background="@android:color/holo_red_dark"
+            android:layout_height="50dp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_test"
+            android:layout_marginTop="@dimen/dp_50"
+            android:background="@android:color/holo_blue_bright"
+            android:layout_width="@dimen/dp_390"
+            android:layout_height="50dp"></TextView>
+
+    </LinearLayout>
+</layout>

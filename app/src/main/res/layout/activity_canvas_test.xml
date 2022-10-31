@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="我是主页面"
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></TextView>
+<!--    <com.example.myapplication.CanvasTest-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+<!--    </com.example.myapplication.CanvasTest>-->
+<!--    <com.example.myapplication.XfermodeView-->
+<!--        android:id="@+id/XfermodeView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+<!--    </com.example.myapplication.XfermodeView>-->
+<!--    <fragment-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:name="com.example.myapplication.AFragment"-->
+<!--        android:layout_height="match_parent"></fragment>-->
+</LinearLayout>

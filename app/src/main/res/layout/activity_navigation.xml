@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".HiltMainActivity">
+        <TextView
+            android:id="@+id/tv_text1"
+            android:layout_width="match_parent"
+            android:text="hilt的组件和作用域"
+            android:background="@android:color/holo_red_dark"
+            android:layout_height="100dp"></TextView>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_text2"
+        android:layout_width="match_parent"
+        android:text="跳转到测试协成代码"
+        android:background="@android:color/holo_red_dark"
+        android:layout_height="100dp" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/navigation_grah" />
+
+</LinearLayout>

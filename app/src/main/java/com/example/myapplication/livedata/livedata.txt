@@ -1,0 +1,30 @@
+
+ LifecycleBoundObserver wrapper = new LifecycleBoundObserver(owner, observer);  //转换   实现LifecycleObserver的观察者，
+ 同时继承 LiveData的 ObserverWrapper ，以便于通知生命周期
+
+
+
+
+ SafeIterableMap<Observer<? super T>, ObserverWrapper> mObservers    //添加到这个队列
+
+ setValue(T value)    //主线程设置数据
+  postValue(T value) //子线程更新数据
+
+
+   为什么要写一个MutableLiveData 替代 LiveData ，这是因为LiveData东西太庞大。对用户不友好，所以
+  不让创建，MutableLiveData代理LiveData，只是提供发送和修改的功能
+
+    LivaDataSinglon.livadata.observeForever()   //这个没有传licycleOwner  没有绑定生命周期
+
+//数据粘性
+默认是
+先发送数据后订阅也可以收到数据(最后一次修改的数据)
+
+如果不想要数据粘性怎么办？
+hook 反射修改源码，就可以去除
+
+
+
+
+
+

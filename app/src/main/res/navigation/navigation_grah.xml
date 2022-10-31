@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/mian_ft"
+    android:id="@+id/navigation_grah">
+  <fragment
+      android:id="@+id/mian_ft"
+      android:name="com.example.myapplication.navigation.MainFragment"
+      >
+
+    <action
+        android:id="@+id/action_1"
+        app:destination="@id/ft_1"
+      ></action>
+  </fragment>
+  <fragment
+      android:id="@+id/ft_1"
+      android:name="com.example.myapplication.navigation.FT_fragment"
+      >
+    <action
+        android:id="@+id/action_2"
+        app:destination="@id/action_2"
+        ></action>
+    <action
+        android:id="@+id/action_ft_1_self"
+        app:destination="@id/ft_1" />
+  </fragment>
+
+  <fragment
+      android:id="@+id/ft_2"
+      android:name="com.example.myapplication.navigation.FT2fragment"
+      >
+    <action
+      android:id="@+id/action_3"
+      app:destination="@id/mian_ft"
+        ></action>
+  </fragment>
+
+</navigation>

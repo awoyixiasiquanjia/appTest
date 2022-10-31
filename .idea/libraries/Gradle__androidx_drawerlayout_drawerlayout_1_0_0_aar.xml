@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/bin/caches/transforms-3/c231682138ac23b9fa63a3ac43acc1c5/transformed/drawerlayout-1.0.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bbe842140b0a02ee44fbb7cda433aff4/transformed/drawerlayout-1.0.0/res" />
+      <root url="file://$USER_HOME$/.jdks/liberica-1.8.0_333/caches/transforms-3/bbe842140b0a02ee44fbb7cda433aff4/transformed/drawerlayout-1.0.0/res" />
+      <root url="file://$USER_HOME$/.jdks/liberica-1.8.0_333/caches/transforms-3/9eb85099527e540df6ae61095f8cca27/transformed/drawerlayout-1.0.0/res" />
+      <root url="file://$USER_HOME$/.jdks/liberica-1.8.0_333/caches/transforms-3/c231682138ac23b9fa63a3ac43acc1c5/transformed/drawerlayout-1.0.0/res" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/bin/caches/transforms-3/c231682138ac23b9fa63a3ac43acc1c5/transformed/drawerlayout-1.0.0/AndroidManifest.xml" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/bin/caches/transforms-3/c231682138ac23b9fa63a3ac43acc1c5/transformed/drawerlayout-1.0.0/res" />
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/bin/caches/transforms-3/c231682138ac23b9fa63a3ac43acc1c5/transformed/drawerlayout-1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/bin/caches/modules-2/files-2.1/androidx.drawerlayout/drawerlayout/1.0.0/9ecd4ecb7da215ba4c5c3e00bf8d290dad6f2bc5/drawerlayout-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

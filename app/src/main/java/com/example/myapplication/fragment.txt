@@ -1,0 +1,13 @@
+
+
+
+
+FragmentTransaction 只是commit 一次，下次使用的得重新获取
+
+supportFragmentManager.beginTransaction()
+beginTransaction.addToBackStack("任务栈的名字") //将fragment添加到任务栈中，调用了这个方法后，
+Android的back事件会响应，调用back时，会将fragment按栈的形式弹出
+
+FragmentTransaction的常用的一些方法
+add(intcontainerViewId,Fragmentfragment,Stringtag)
+一个fragment对象只能被添加一次，不然会报错

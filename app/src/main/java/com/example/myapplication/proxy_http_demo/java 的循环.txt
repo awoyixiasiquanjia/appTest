@@ -1,0 +1,4 @@
+集合的遍历有
+ for循环
+ 增强for循环
+ Iterator迭代器  如何获得Iterator，只要是Collection都可以获取

@@ -1,0 +1,103 @@
+
+paint：
+
+reset() 将画笔恢复到原始状态
+ paint.strokeWidth 只是针对 paint.style= Paint.Style.STROKE 有用
+
+ Android的视图是由ViewRootImpl发起的，分别调用 measure layout,draw 方法
+
+控件的背景都是在draw中绘制的
+
+
+ViewGroup中没有 measure() 和 onMeasure（）等方法
+
+
+view的绘制流程：
+
+   draw() -> drawBackgroud (绘制背景) -> ondraw() (绘制自身内容) ->dispatchDraw() （分发绘制子view）   这个绘制过程,一般重写都是重写ondraw方法的
+
+   dispatchDraw()是需要分发绘制的，view里面是空实现
+    view.drawToBitmap()   里面是创建了一个bitmap放入一个创建的canvas中，调用view的draw方法，将view绘制到这个Bitmap中，返回一个bitmap
+
+
+canvas和view 关系
+canvas是由窗口的ViewRootImpl 通过surface.lockCanvas获得的，并且将该canvas传递给根视图，一层一层往下传递，对于应用窗口来说，canvas的大小就是整个屏幕的大小
+所以在父类中对canvas的操作，都会影响到子类的布局，比如在父类中对canvas进行平移等操作
+
+canvas要绘制必须有一个bitmap,所有的内容都是绘制在这个bitmap上的
+假如自己创建一个canvas如下所示：
+是绘制不出东西的，因为这个canvas不是由根视图传递过来的，所以展示不了，这里面绘制的内容全在自己创建的canvas中的bitmap上
+ init {
+        mBitmap= Bitmap.createBitmap(1000,800,Bitmap.Config.ARGB_8888)
+        mCanvas= Canvas()}
+    override fun onDraw(canvas: Canvas) {
+        mCanvas.drawPath(patch,paint);
+        super.onDraw(canvas)
+    }
+
+
+修改：
+
+ init {
+        mBitmap= Bitmap.createBitmap(1000,800,Bitmap.Config.ARGB_8888)
+        mCanvas= Canvas()}
+    override fun onDraw(canvas: Canvas) {
+        mCanvas.drawPath(patch,paint);
+        canvas.drawBitmap(mBitmap,0f,0f,paint);  //加上这一行就可以显示了
+        super.onDraw(canvas)
+    }
+
+每次调用cavas.drawXXX方法的时候，都会产生一个全新的canvas画布，我们绘制东西，都是以canvas为坐标点的
+eg:
+           val rect = Rect(0,0,100,100)
+           canvas.drawRect(rect,paingreen)   //绘制1
+           canvas.translate(50f,50f)         //将画布移动到新坐标点
+           canvas.drawRect(rect,paintRed)    //绘制2
+
+这样绘制1的canvas的坐标是(0,0)
+因为绘制2的时候canvas（画板）已经移动了，所以新的画布的坐标点相对于手机屏幕的位置也变了
+
+---------------------------画布的保存与回复----------------------------------------
+
+一旦对canvas进行操作，eg:裁剪，平移，等后，这个过程是不可逆的
+但是canvas提供了一个restoreToCount和restore回复的方法
+
+首先：再操作canvas时需要调用canvas.save()方法，将当前canvas的状态进行保存，然后放入特定的栈中，记得要想恢复必须得调这个方法
+ int count = canvas.save(); //返回保存到栈的那个位置
+
+ 想要恢复的时候，可以调用restoreToCount和restore两个方法，区别是：restoreToCount(count)得传入一个参数，这个参数是指要返回到这个状态
+ 而restore方法是返回到栈顶状态
+
+------------------------创建canvas的几种方法---------------------------------
+
+ new Canvas(bitmap); //第一种
+ val canvas= new Canvas()； //第二种
+ canvas.setbitmap(bitmap)
+ SurfaceHolder.lockCanvas()  //第三种
+
+
+其中bitmap可以从图片加载，也可以创建，有下面几种方法
+//方法一：新建一个空白bitmap
+Bitmap bmp = Bitmap.createBitmap(width ,height Bitmap.Config.ARGB_8888);
+//方法二：从图片中加载
+Bitmap bmp = BitmapFactory.decodeResource(getResources(),R.drawable.wave_bg,null);
+
+PorterDuffXfermode  的几种类型
+https://developer.android.google.cn/reference/android/graphics/PorterDuff.Mode?hl=en
+
+
+-----------------------------总结----------------------------
+
+图层：  canvas.drawXXX 都生成一个透明的图层，
+
+画布： 是指的是canvas中的bitmap,所有画的东西都是绘制在bitmap上的
+
+画板：canvas可以理解成画板
+
+
+
+
+
+
+
+

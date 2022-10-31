@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.activity:activity:1.2.3@aar">
+    <ANNOTATIONS>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/bin/caches/transforms-3/779fec20482925d5f6e04c3f87138c38/transformed/activity-1.2.3/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.jdks/liberica-1.8.0_333/caches/transforms-3/779fec20482925d5f6e04c3f87138c38/transformed/activity-1.2.3/res" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/bin/caches/transforms-3/779fec20482925d5f6e04c3f87138c38/transformed/activity-1.2.3/AndroidManifest.xml" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/bin/caches/transforms-3/779fec20482925d5f6e04c3f87138c38/transformed/activity-1.2.3/res" />
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/bin/caches/transforms-3/779fec20482925d5f6e04c3f87138c38/transformed/activity-1.2.3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/bin/caches/modules-2/files-2.1/androidx.activity/activity/1.2.3/90a39fdeb6c8aa134518e9fc089fd2625a0329b0/activity-1.2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

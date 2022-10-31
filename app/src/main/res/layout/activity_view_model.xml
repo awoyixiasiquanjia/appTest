@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".viewmode.ViewModelActivity">
+
+    <TextView
+        android:id="@+id/tv_show"
+        android:text="显示的数据"
+        android:gravity="center"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></TextView>
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:id="@+id/tv_buttom"
+        android:gravity="center"
+        android:text="点击+"
+        android:background="@android:color/holo_red_dark"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></TextView>
+
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".AIDL.AIDLActivity"
+            android:exported="false" />
+        <activity
+            android:name=".navigation.NavigationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KotlinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".viewmode.example.CalculatorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".viewmode.ViewModelActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+        <activity
+            android:name=".databinding.DatabindActivity"
+            android:exported="false" />
+        <activity
+            android:name=".viewbind.viewding_kotlinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewBindActivity"
+            android:exported="false" />
+        <activity
+            android:name=".livedata.LiveDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dialog.DialogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lifecycle.LifeCycleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainjinchengActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".proxy_http_demo.HttpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".hilt_demo.HiltHttpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".hilt.HiltComponentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HiltMainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

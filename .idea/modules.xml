@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/My_Application.iml" filepath="$PROJECT_DIR$/.idea/modules/My_Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CommonLibrary/My_Application.CommonLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/CommonLibrary/My_Application.CommonLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CommonLibrary/My_Application.CommonLibrary.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/CommonLibrary/My_Application.CommonLibrary.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CommonLibrary/My_Application.CommonLibrary.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CommonLibrary/My_Application.CommonLibrary.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CommonLibrary/My_Application.CommonLibrary.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/CommonLibrary/My_Application.CommonLibrary.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/My_Application.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/My_Application.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/My_Application.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/My_Application.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/My_Application.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/My_Application.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/My_Application.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/My_Application.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mydaggerapplication/My_Application.mydaggerapplication.iml" filepath="$PROJECT_DIR$/.idea/modules/mydaggerapplication/My_Application.mydaggerapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mydaggerapplication/My_Application.mydaggerapplication.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/mydaggerapplication/My_Application.mydaggerapplication.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mydaggerapplication/My_Application.mydaggerapplication.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mydaggerapplication/My_Application.mydaggerapplication.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mydaggerapplication/My_Application.mydaggerapplication.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/mydaggerapplication/My_Application.mydaggerapplication.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retrofitapp/My_Application.retrofitapp.iml" filepath="$PROJECT_DIR$/.idea/modules/retrofitapp/My_Application.retrofitapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retrofitapp/My_Application.retrofitapp.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/retrofitapp/My_Application.retrofitapp.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retrofitapp/My_Application.retrofitapp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/retrofitapp/My_Application.retrofitapp.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retrofitapp/My_Application.retrofitapp.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/retrofitapp/My_Application.retrofitapp.unitTest.iml" />
+    </modules>
+  </component>
+</project>

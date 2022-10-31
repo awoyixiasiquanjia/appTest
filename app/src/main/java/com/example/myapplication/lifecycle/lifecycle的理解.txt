@@ -1,0 +1,42 @@
+lifecycle的抽象类
+
+lifecycle的实现类 ，添加和删除观察者，和感应生命周期，通知
+
+lifecycleOwner接口，用来提供lifecycle对象
+
+lifecycleObser  生命周期观察者
+
+
+
+kotlin的方法
+
+fun waynane():calback{
+
+}
+
+定义变量：
+val a:Int ="content"
+这个类型可以省略
+
+object的几种用法：
+1.修饰类，称为静态内部类
+2，修饰简单对象
+3.修饰匿名内部类
+
+var  即 varbile
+val  即 varbile +finaL
+
+如何声明一个函数类型：
+
+() -> Unit 这个必须 的写
+
+
+
+
+
+
+
+
+
+
+

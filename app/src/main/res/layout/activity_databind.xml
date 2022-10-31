@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<!--    定义view的数据来源-->
+    <data>
+     <variable
+         name="showContent"
+         type="com.example.myapplication.databinding.InputContent" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".databinding.DatabindActivity">
+        <TextView
+            android:id="@+id/tv_content"
+            android:textSize="32sp"
+            android:text="@{showContent.inputContent}"
+            android:textColor="@color/white"
+            android:background="@android:color/holo_red_dark"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"></TextView>
+
+        <EditText
+            android:id="@+id/et_input"
+            android:hint="请输入"
+            android:background="@android:color/holo_blue_bright"
+            android:layout_marginTop="100dp"
+            android:text="@={showContent.inputContent}"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"></EditText>
+    </LinearLayout>
+</layout>

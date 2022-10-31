@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.test.services:storage:1.4.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fa579a7573d13420d84f4001156abe48/transformed/storage-1.4.0/res" />
+      <root url="file://$USER_HOME$/.jdks/liberica-1.8.0_333/caches/transforms-3/fa579a7573d13420d84f4001156abe48/transformed/storage-1.4.0/res" />
+      <root url="file://$USER_HOME$/.jdks/liberica-1.8.0_333/caches/transforms-3/16782791778cca0b1c39bed11bb3539a/transformed/storage-1.4.0/res" />
+      <root url="file://$USER_HOME$/.jdks/liberica-1.8.0_333/caches/transforms-3/f5b07603594ffaf691f7a64b1e73a016/transformed/storage-1.4.0/res" />
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/bin/caches/transforms-3/f5b07603594ffaf691f7a64b1e73a016/transformed/storage-1.4.0/jars/classes.jar!/" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/bin/caches/transforms-3/f5b07603594ffaf691f7a64b1e73a016/transformed/storage-1.4.0/res" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/bin/caches/transforms-3/f5b07603594ffaf691f7a64b1e73a016/transformed/storage-1.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/bin/caches/modules-2/files-2.1/androidx.test.services/storage/1.4.0/27088f46bc0ab94523a20ccc56aa27e142662396/storage-1.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

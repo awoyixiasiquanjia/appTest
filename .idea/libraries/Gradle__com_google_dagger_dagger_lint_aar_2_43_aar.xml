@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.dagger:dagger-lint-aar:2.43@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.jdks/liberica-1.8.0_333/caches/transforms-3/4b0862b805db70479ba8ca597a9bc5ba/transformed/dagger-lint-aar-2.43/res" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/bin/caches/transforms-3/4b0862b805db70479ba8ca597a9bc5ba/transformed/dagger-lint-aar-2.43/res" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/bin/caches/transforms-3/4b0862b805db70479ba8ca597a9bc5ba/transformed/dagger-lint-aar-2.43/AndroidManifest.xml" />
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/bin/caches/transforms-3/4b0862b805db70479ba8ca597a9bc5ba/transformed/dagger-lint-aar-2.43/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

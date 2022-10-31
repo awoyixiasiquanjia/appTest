@@ -1,0 +1,20 @@
+binder的原理分析
+
+binder是一个架构，用来实现Android系统的进程之间的交互的（IPC）
+
+
+
+linux操作系统：
+
+内核：进程管理器，内存管理器，TCP/ip协议的驱动程序
+
+
+
+operating system  简称os android 的操作系统的内核是linux的
+
+linux
+
+进程是操作操作系统分配资源的最小单位
+线程是cpu最小的执行单元
+
+

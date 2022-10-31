@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".HiltMainActivity">
+<TextView
+    android:id="@+id/tv_text1"
+    android:layout_width="match_parent"
+    android:text="hilt的组件和作用域"
+    android:background="@android:color/holo_red_dark"
+    android:layout_height="100dp"></TextView>
+    <TextView
+        android:id="@+id/tv_text2"
+        android:layout_width="match_parent"
+        android:text="跳转到测试协成代码"
+        android:background="@android:color/holo_red_dark"
+        android:layout_height="100dp"></TextView>
+    <TextView
+        android:id="@+id/tv_text3"
+        android:layout_width="match_parent"
+        android:text="lifecycle"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_height="100dp"></TextView>
+
+    <TextView
+        android:id="@+id/tv_text4"
+        android:layout_width="match_parent"
+        android:text="跳转到dialog界面"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_height="100dp"></TextView>
+
+    <TextView
+        android:id="@+id/tv_text5"
+        android:layout_width="match_parent"
+        android:text="跳转到Livedata界面"
+        android:background="@android:color/holo_red_dark"
+        android:layout_height="100dp"></TextView>
+
+    <TextView
+        android:id="@+id/tv_text6"
+        android:layout_width="match_parent"
+        android:text="跳转到viewbinding页面"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_height="100dp"></TextView>
+    <TextView
+        android:id="@+id/tv_text7"
+        android:layout_width="match_parent"
+        android:text="跳转到绑定机制"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_height="100dp"></TextView>
+    <TextView
+        android:id="@+id/tv_text8"
+        android:layout_width="match_parent"
+        android:text="Databind页面"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_height="100dp"></TextView>
+
+    <TextView
+        android:id="@+id/tv_text9"
+        android:layout_width="match_parent"
+        android:text="viewmodel页面"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_height="100dp"></TextView>
+
+    <TextView
+        android:id="@+id/tv_text10"
+        android:layout_width="match_parent"
+        android:text="viewmodel的demo页面"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_height="100dp"></TextView>
+
+    <TextView
+        android:id="@+id/tv_text11"
+        android:layout_width="match_parent"
+        android:text="跳转到kotlin的页面"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_height="100dp"></TextView>
+
+    <TextView
+        android:id="@+id/tv_text12"
+        android:layout_width="match_parent"
+        android:text="跳转到Navigation页面"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_height="100dp"></TextView>
+
+    <TextView
+        android:id="@+id/tv_text13"
+        android:layout_width="match_parent"
+        android:text="跳转到AIDL页面"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_height="100dp"></TextView>
+
+</LinearLayout>
+</ScrollView>
